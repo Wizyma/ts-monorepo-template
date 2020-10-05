@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "noImplicitAny": true,
+    "composite": true,
+    "jsx": "react",
+  }
+}

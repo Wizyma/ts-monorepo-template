@@ -1,0 +1,14 @@
+{
+  "packages": ["packages/*", "apps/*", "views/*", "services/*"],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--use-workspaces --hoist"]
+    },
+    "add": {
+      "npmClientArgs": ["--use-workspaces"]
+    }
+  },
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}
