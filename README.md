@@ -29,13 +29,13 @@ To do so just run the commands:
 
 ```shell
 # generate a package
-$ yarn generate package --name Hooks --org @org
+$ yarn generate package new --name Hooks --org @org
 
 # generate a view
-$ yarn generate view --name Hooks --org @org
+$ yarn generate view new --name Hooks --org @org
 
 #generate an app
-$ yarn generate app --name Backoffice --org @org
+$ yarn generate app new --name Backoffice --org @org
 ```
 
 the argument `name`is for the name of the folder and `org` is for the workspace name, usually something like `@yourorganisation`.
