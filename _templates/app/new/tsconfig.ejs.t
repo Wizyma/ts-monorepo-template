@@ -2,7 +2,6 @@
 to: apps/<%= name %>/tsconfig.json
 ---
 {
-  "extends": "../../configurations/typescript/tsconfig.base.json",
   "compilerOptions": {
     "module": "ES2015",
     "outDir": "dist/lib",
@@ -11,6 +10,7 @@ to: apps/<%= name %>/tsconfig.json
     "rootDir": "src",
     "baseUrl": "src",
     "jsx": "react",
+    "esModuleInterop": true,
     "paths": {
       "*": ["*"]
     }

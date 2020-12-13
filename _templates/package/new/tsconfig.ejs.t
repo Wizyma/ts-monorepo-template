@@ -2,13 +2,13 @@
 to: packages/<%= name %>/tsconfig.json
 ---
 {
-  "extends": "../../configurations/typescript/tsconfig.react.json",
   "compilerOptions": {
     "outDir": "dist/lib",
     "declaration": true,
     "declarationDir": "dist",
     "rootDir": "src",
     "skipLibCheck": true,
+    "esModuleInterop": true,
     "baseUrl": "src",
     "paths": {
       "*": ["*"]

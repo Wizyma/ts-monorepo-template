@@ -2,7 +2,6 @@
 to: views/<%= name %>/tsconfig.json
 ---
 {
-  "extends": "../../configurations/typescript/tsconfig.react.json",
   "compilerOptions": {
     "module": "ESNext",
     "outDir": "dist/lib",
@@ -11,6 +10,7 @@ to: views/<%= name %>/tsconfig.json
     "rootDir": "src",
     "skipLibCheck": true,
     "baseUrl": "src",
+    "esModuleInterop": true,
     "paths": {
       "*": ["*"]
     }

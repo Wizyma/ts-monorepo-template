@@ -1,0 +1,6 @@
+{
+  "out": "../../docs/pack",
+  "tsconfig": "./tsconfig.json",
+  "exclude": "/src/__tests__/**/*",
+  "ignoreCompilerErrors": true
+}

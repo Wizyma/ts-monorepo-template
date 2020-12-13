@@ -2,7 +2,6 @@
 to: services/<%= name %>/tsconfig.json
 ---
 {
-  "extends": "../../configurations/typescript/tsconfig.base.json",
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ES2015",
@@ -10,6 +9,7 @@ to: services/<%= name %>/tsconfig.json
     "declaration": false,
     "rootDir": "src",
     "baseUrl": "src",
+    "esModuleInterop": true,
     "paths": {
       "*": ["*"]
     }
