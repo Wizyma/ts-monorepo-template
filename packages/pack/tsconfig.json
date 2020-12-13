@@ -1,16 +1,14 @@
----
-to: views/<%= name %>/tsconfig.json
----
 {
   "compilerOptions": {
-    "module": "ESNext",
     "outDir": "dist/lib",
     "declaration": true,
     "declarationDir": "dist",
     "rootDir": "src",
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "baseUrl": "src",
-    "esModuleInterop": true,
     "paths": {
       "*": ["*"]
     }
